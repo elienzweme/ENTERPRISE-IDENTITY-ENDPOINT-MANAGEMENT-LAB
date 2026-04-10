@@ -14,7 +14,9 @@ The objective was to gain hands-on experience in:
 - Patch management (WSUS)  
 - Real-world IT troubleshooting and help desk workflows  
 
-📄 Full Documentation: [View Project Report](./Enterprise-Identity-Endpoint-Management-Lab.pdf)
+## 📄 Project Documentation
+
+👉 **[View Full Project Report (PDF)](./Enterprise-Identity-Endpoint-Management-Lab.pdf)**
 
 ---
 
