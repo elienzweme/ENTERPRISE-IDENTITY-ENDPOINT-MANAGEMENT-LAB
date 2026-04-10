@@ -155,7 +155,12 @@ gpupdate /force
 User unable to log in due to password change requirement  
 
 **Root Cause:**  
-Active Directory policy required password reset at first login  
+Active Directory policy required password reset at first login
+<img width="975" height="734" alt="image" src="https://github.com/user-attachments/assets/72fe0217-29c0-4774-b765-fec0ac171a03" />
+<img width="975" height="499" alt="image" src="https://github.com/user-attachments/assets/3b45700d-af39-4857-a2c5-fd43d6734f52" />
+<img width="975" height="505" alt="image" src="https://github.com/user-attachments/assets/e501c34a-3062-4c90-a131-24ced30a7778" />
+<img width="975" height="735" alt="image" src="https://github.com/user-attachments/assets/b7ed4753-63bd-40e7-ae02-837446e0d44e" />
+<img width="975" height="503" alt="image" src="https://github.com/user-attachments/assets/e1917cab-f8fa-431e-8e2a-43d8c6de1d27" />
 
 **Resolution:**  
 - Guided user through password change  
