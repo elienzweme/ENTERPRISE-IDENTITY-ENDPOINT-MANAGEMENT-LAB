@@ -318,25 +318,6 @@ Throughout this project, I applied:
 - System Performance Analysis  
 
 ---
-
-## 📌 Key Takeaways
-
-- DNS is critical in domain environments  
-- GPO depends on proper network and firewall configuration  
-- WSUS can impact performance if misconfigured  
-- Real-world troubleshooting requires layered analysis  
-
----
-
-## 📂 Future Improvements
-
-- Azure AD / Entra ID integration  
-- Intune device management  
-- SIEM integration (Splunk / Wazuh)  
-- Automation using PowerShell  
-
----
-
 ## 👤 Author
 
 **Elie Nzweme**  
