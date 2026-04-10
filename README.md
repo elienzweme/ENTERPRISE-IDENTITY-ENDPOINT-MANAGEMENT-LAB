@@ -38,7 +38,9 @@ The objective was to gain hands-on experience in:
 - Access-Based Enumeration (ABE)  
 
 ### 🎫 Support & Ticketing
-- Jira Service Management  
+- Jira Service Management
+<img width="1906" height="997" alt="Screenshot 2026-04-09 214510" src="https://github.com/user-attachments/assets/f8484382-e706-4f3d-82fd-e55a5878fccb" />
+
 
 ---
 
@@ -160,18 +162,20 @@ Active Directory policy required password reset at first login
 <img width="975" height="499" alt="image" src="https://github.com/user-attachments/assets/3b45700d-af39-4857-a2c5-fd43d6734f52" />
 <img width="975" height="505" alt="image" src="https://github.com/user-attachments/assets/e501c34a-3062-4c90-a131-24ced30a7778" />
 <img width="975" height="735" alt="image" src="https://github.com/user-attachments/assets/b7ed4753-63bd-40e7-ae02-837446e0d44e" />
-<img width="975" height="503" alt="image" src="https://github.com/user-attachments/assets/e1917cab-f8fa-431e-8e2a-43d8c6de1d27" />
 
 **Resolution:**  
 - Guided user through password change  
 - Verified successful login  
+<img width="975" height="503" alt="image" src="https://github.com/user-attachments/assets/1d9d6166-7850-44c3-9cb4-5e44aa31cb3a" />
 
 ---
 
 ## 🧾 Ticket 2: Shared Folder Access Issue
 
 **Issue:**  
-User unable to access department shared folder  
+User unable to access department shared folder 
+<img width="975" height="598" alt="image" src="https://github.com/user-attachments/assets/2fa417d2-54a1-4769-92a9-c1e8878e3163" />
+<img width="975" height="658" alt="image" src="https://github.com/user-attachments/assets/5e8b37dc-393e-4107-9b85-d4057aaeed34" />
 
 **Root Cause:**  
 Incorrect NTFS permissions and group membership  
@@ -179,12 +183,16 @@ Incorrect NTFS permissions and group membership
 **Troubleshooting Steps:**  
 - Verified user group membership in Active Directory  
 - Reviewed NTFS permissions on shared folder  
-- Tested access using multiple accounts  
+- Tested access using multiple accounts
 
 **Resolution:**  
 - Updated security group membership  
 - Corrected NTFS permissions  
-- Enabled Access-Based Enumeration (ABE)  
+- Enabled Access-Based Enumeration (ABE)
+<img width="1125" height="650" alt="image" src="https://github.com/user-attachments/assets/3c49f977-6012-4d5c-a76b-cbaf9b2b4936" />
+<img width="975" height="691" alt="image" src="https://github.com/user-attachments/assets/7560a7d0-c0db-471b-9281-e4997b49bf61" />
+<img width="975" height="498" alt="image" src="https://github.com/user-attachments/assets/f5a08b7b-cef0-4bc5-87b1-b0e4f5056803" />
+<img width="975" height="555" alt="image" src="https://github.com/user-attachments/assets/e9be651d-8925-4b63-84cd-ef6d162bfbae" />
 
 ---
 
@@ -194,6 +202,9 @@ Incorrect NTFS permissions and group membership
 User reported slow system performance after login:
 - Delayed applications  
 - System lag  
+<img width="975" height="505" alt="image" src="https://github.com/user-attachments/assets/b9acf999-a837-4c70-81cd-19a2f4094405" />
+<img width="964" height="584" alt="image" src="https://github.com/user-attachments/assets/8a47c60a-74e9-4c20-940a-8d1411b878bb" />
+
 
 ---
 
@@ -201,12 +212,18 @@ User reported slow system performance after login:
 
 **1. Initial Assessment**
 - Verified system performance after login  
-- Checked Windows Update status  
+- Checked Windows Update status
+<img width="975" height="550" alt="image" src="https://github.com/user-attachments/assets/3e8f9e6c-476a-4af4-98a0-36d191b19c92" />
+- <img width="975" height="609" alt="image" src="https://github.com/user-attachments/assets/3848bf0a-d7f5-4139-bea5-9383e01f47f4" />
 
 **2. Group Policy Investigation**
 - Identified GPO not applying correctly  
 - Ran:
+<img width="973" height="561" alt="image" src="https://github.com/user-attachments/assets/d56507fd-4e8c-4db9-844e-3dac4043116a" />
+<img width="975" height="597" alt="image" src="https://github.com/user-attachments/assets/ae527216-5499-419a-a19a-334499ad0088" />
+
 ```
+
 
 gpupdate /force
 
@@ -225,7 +242,9 @@ gpupdate /force
 **Firewall Rules Enabled:**
 - Remote Event Log Management (RPC)  
 - Remote Service Management  
-- File and Printer Sharing (SMB)  
+- File and Printer Sharing (SMB)
+<img width="975" height="603" alt="image" src="https://github.com/user-attachments/assets/b9b1bb67-dffe-41d1-9c8e-a63f6c8a2f3c" />
+
 
 **5. Group Policy Reapplication**
 - Re-ran:
@@ -244,7 +263,11 @@ usoclient StartScan
 wuauclt /reportnow
 
 ```
-- Confirmed client reporting to WSUS  
+- Confirmed client reporting to WSUS
+<img width="1123" height="589" alt="image" src="https://github.com/user-attachments/assets/58941f4b-1aab-41a5-b950-d3f0f337475a" />
+<img width="1125" height="664" alt="image" src="https://github.com/user-attachments/assets/d29d0123-e901-493d-917d-cf552d7925f8" />
+<img width="1125" height="611" alt="image" src="https://github.com/user-attachments/assets/5f0f4dbf-0125-45f8-8356-50cdf0c59630" />
+
 
 ---
 
@@ -317,39 +340,5 @@ Throughout this project, I applied:
 ## 👤 Author
 
 **Elie Nzweme**  
-Aspiring IT Support | IAM | Cybersecurity Professional
+Aspiring IAM Engineer| Cybersecurity Professional
 ```
-
----
-
-# 🔥 WHAT YOU JUST BUILT
-
-This is now:
-
-✅ Portfolio-level project
-✅ Interview-ready
-✅ Resume-backed experience
-✅ Shows real troubleshooting (THIS is what recruiters care about)
-
----
-
-# 🚀 FINAL STEP (DON’T SKIP)
-
-After pasting:
-
-👉 Click **Preview tab**
-👉 Make sure images show
-👉 Commit changes
-
----
-
-# 💥 If you want next level (HIGHLY RECOMMENDED)
-
-I can help you:
-
-✅ Turn THIS project into **interview answers**
-✅ Add it perfectly to your resume (IAM + Help Desk versions)
-✅ Create a **LinkedIn post that gets attention**
-
-Just say:
-👉 “Turn this into interview answers”
