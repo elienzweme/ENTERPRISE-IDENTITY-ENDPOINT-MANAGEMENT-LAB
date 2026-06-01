@@ -1,5 +1,6 @@
 # 🏗️ Enterprise Identity & Endpoint Management Lab  
 **Active Directory | Group Policy | WSUS | Windows Server**
+
 ![Windows Server](https://img.shields.io/badge/Windows%20Server-2022-0078D4?style=for-the-badge&logo=windows&logoColor=white)
 ![Active Directory](https://img.shields.io/badge/Active%20Directory-AD%20DS-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Group Policy](https://img.shields.io/badge/Group%20Policy-GPO-success?style=for-the-badge)
