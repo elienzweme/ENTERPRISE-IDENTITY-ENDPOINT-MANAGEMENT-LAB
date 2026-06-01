@@ -9,6 +9,9 @@
 ![Jira Service Management](https://img.shields.io/badge/Jira-Service%20Management-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![NTFS Permissions](https://img.shields.io/badge/NTFS-Permissions-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![Domain Join](https://img.shields.io/badge/DOMAIN-JOINED-brightgreen?style=for-the-badge)
+![Troubleshooting](https://img.shields.io/badge/TROUBLESHOOTING-ROOT%20CAUSE%20ANALYSIS-red?style=for-the-badge)
+
 ---
 
 ## 📌 Project Overview
