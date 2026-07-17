@@ -12,6 +12,11 @@
 ![Domain Join](https://img.shields.io/badge/DOMAIN-JOINED-brightgreen?style=for-the-badge)
 ![Troubleshooting](https://img.shields.io/badge/TROUBLESHOOTING-ROOT%20CAUSE%20ANALYSIS-red?style=for-the-badge)
 
+<p align="center">
+  <img src="enterprise-identity-endpoint-management-lab.png"
+       alt="Enterprise Identity Endpoint Management Lab"
+       width="1000">
+  
 ---
 
 ## 📌 Project Overview
